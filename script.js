@@ -56,13 +56,12 @@ $searchBtn.addEventListener("click", (e) => {
   checkweather($searchBox.value);
   $weather.classList.remove("inactive");
   $weather.classList.add("fade-in");
+})
 
-  $searchBox.addEventListener("keydown", (e) => {
-    if (e.key === "Enter") {
-      checkweather($searchBox.value);
-      $weather.classList.remove("inactive");
-      $weather.classList.add("fade-in");
-
-    }
-  });
+$searchBox.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") {
+    checkweather($searchBox.value);
+    $weather.classList.remove("inactive");
+    $weather.classList.add("fade-in");
+  }
 });
