@@ -1,6 +1,5 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
   title: 'Juan Dev.',
 }
 
@@ -8,7 +7,6 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Juan Chavez',
   role: 'Front End Developer',
-  picture: '/juan.jpg',
 
   description:
     'As a software engineering student my focus is on crafting captivating user experiences, driven by creativity. I specialize in creating simple yet impactful web pages with exceptional delivery, capable of conveying messages in a unique way.',
