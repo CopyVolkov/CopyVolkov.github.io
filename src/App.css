@@ -150,3 +150,7 @@ main {
     margin-top: 4em;
   }
 }
+
+iframe {
+  pointer-events: none !important;
+}
